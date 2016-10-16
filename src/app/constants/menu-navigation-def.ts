@@ -4,42 +4,42 @@ export class MenuNavigationDef {
     {
       path: 'dashboard',
       title: 'Dashboard',
-      icon: 'ion-android-home',
+      icon: 'dashboard',
       selected: false,
       expanded: false
     },
     {
       path: 'view',
       title: 'View',
-      icon: 'ion-android-home',
+      icon: 'find_in_page',
       selected: false,
       expanded: false
     },
     {
-      path: 'editor',
-      title: 'Editor',
-      icon: 'ion-android-home',
+      path: 'action',
+      title: 'Action',
+      icon: 'font_download',
       selected: false,
       expanded: false
     },
     {
-      path: 'components',
-      title: 'Components',
-      icon: 'ion-android-home',
+      path: 'configuration',
+      title: 'Configuration',
+      icon: 'important_devices',
       selected: false,
       expanded: false
     },
     {
-      path: 'favorites',
-      title: 'Favorites',
-      icon: 'ion-android-home',
+      path: 'settings',
+      title: 'Settings',
+      icon: 'settings',
       selected: false,
       expanded: false
     },
     {
       path: 'help',
       title: 'Help',
-      icon: 'ion-android-home',
+      icon: 'help',
       selected: false,
       expanded: false
     }

@@ -2,6 +2,7 @@
 <md-sidenav #menuNavSide mode="side" opened="isOpenMode" [style.width] = "navWidth" class="app-sidenav" on-mouseover="navMenuFocus()" on-mouseout="navMenuFocusOut()">
 
   <!-- Drawing Navigation Menu Here. -->
-  <app-cav-menu *ngFor="let menu of arrNavMenu" [navMenu]="menu" [sidebarCollapsed]="isCollapsed"></app-cav-menu>
-
+  <ul class="cav-menu-ul">
+    <app-cav-menu *ngFor="let menu of arrNavMenu" [navMenu]="menu" [sidebarCollapsed]="isCollapsed"></app-cav-menu>
+  </ul>
 </md-sidenav>
