@@ -14,6 +14,8 @@ import { CavProfileGraphViewComponent } from './components/cav-profile-graph-vie
 import { CavContentComponent } from './components/cav-content/cav-content.component';
 import { CavMainMenuNavignationComponent } from './components/cav-main-menu-navignation/cav-main-menu-navignation.component';
 import { CavMenuNavigatorService } from './services/cav-menu-navigator.service';
+import { CavMenuComponent } from './components/cav-menu/cav-menu.component';
+import { CavMenuItemComponent } from './components/cav-menu-item/cav-menu-item.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { CavMenuNavigatorService } from './services/cav-menu-navigator.service';
     CavProfileGraphViewComponent,
     CavContentComponent,
     CavMainMenuNavignationComponent,
+    CavMenuComponent,
+    CavMenuItemComponent,
   ],
   entryComponents: [
     AppComponent,
